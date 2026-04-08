@@ -16,17 +16,15 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Pull EPG image
-        run: docker pull ghcr.io/iptv-org/epg:master
-
       - name: Generate guide.xml
         run: |
           mkdir -p docs
           docker run --rm \
-            -v "${{ github.workspace }}/channels.xml:/epg/public/channels.xml" \
-            -v "${{ github.workspace }}/docs:/epg/public" \
-            -e GZIP=true \
-            ghcr.io/iptv-org/epg:master
+            -v "${{ github.workspace }}/channels.xml:/epg/channels.xml:ro" \
+            -v "${{ github.workspace }}/docs:/epg/docs" \
+            --entrypoint sh \
+            ghcr.io/iptv-org/epg:master \
+            -lc 'npm run grab -- --channels=/epg/channels.xml --output=/epg/docs/guide.xml && gzip -kf /epg/docs/guide.xml'
 
       - name: Add .nojekyll
         run: touch docs/.nojekyll
