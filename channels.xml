@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <!-- beIN Entertainment -->
+  <channel site="bein.com" site_id="entertainment#1" lang="en" xmltv_id="beINMovies1Premiere.qa@SD">beIN Movies Premiere</channel>
+  <channel site="bein.com" site_id="entertainment#2" lang="en" xmltv_id="beINMovies2Action.qa@SD">beIN Movies Action</channel>
+  <channel site="bein.com" site_id="entertainment#3" lang="en" xmltv_id="beINMovies3Drama.qa@SD">beIN Movies Drama</channel>
+  <channel site="bein.com" site_id="entertainment#4" lang="en" xmltv_id="beINMovies4Family.qa@SD">beIN Movies Family</channel>
+  <channel site="bein.com" site_id="entertainment#5" lang="en" xmltv_id="FoxMoviesMiddleEast.us@SD">Fox Movies Middle East</channel>
+  <channel site="bein.com" site_id="entertainment#6" lang="en" xmltv_id="FoxActionMoviesMENA.hk@SD">Fox Action Movies</channel>
+  <channel site="bein.com" site_id="entertainment#7" lang="en" xmltv_id="StarMoviesMiddleEast.ae@SD">Star Movies Middle East</channel>
+  <channel site="bein.com" site_id="entertainment#8" lang="en" xmltv_id="beINSeries1.qa@SD">beIN Series 1</channel>
+  <channel site="bein.com" site_id="entertainment#9" lang="en" xmltv_id="beINSeries2.qa@SD">beIN Series 2</channel>
+  <channel site="bein.com" site_id="entertainment#10" lang="en" xmltv_id="beINDrama1.qa@SD">beIN Drama 1</channel>
+  <channel site="bein.com" site_id="entertainment#11" lang="en" xmltv_id="beINGourmet.qa@SD">beIN Gourmet</channel>
+  <channel site="bein.com" site_id="entertainment#12" lang="en" xmltv_id="TravelChannelEMEA.uk@SD">Travel Channel EMEA</channel>
+  <channel site="bein.com" site_id="entertainment#13" lang="en" xmltv_id="FoxArabia.ae@SD">Fox Arabia</channel>
+  <channel site="bein.com" site_id="entertainment#14" lang="en" xmltv_id="FoodNetworkEMEA.us@SD">Food Network EMEA</channel>
+  <channel site="bein.com" site_id="entertainment#15" lang="en" xmltv_id="HGTVArabia.us@SD">HGTV Arabia</channel>
+  <channel site="bein.com" site_id="entertainment#16" lang="en" xmltv_id="StarWorldMiddleEast.ae@SD">Star World Middle East</channel>
+  <channel site="bein.com" site_id="entertainment#17" lang="en" xmltv_id="Fatafeat.ae@SD">Fatafeat</channel>
+  <channel site="bein.com" site_id="entertainment#18" lang="en" xmltv_id="FoxLifeMiddleEast.ae@SD">Fox Life Middle East</channel>
+  <channel site="bein.com" site_id="entertainment#19" lang="en" xmltv_id="MTV80s.uk@SD">MTV 80s</channel>
+  <channel site="bein.com" site_id="entertainment#20" lang="en" xmltv_id="MTV90s.uk@SD">MTV 90s</channel>
+  <channel site="bein.com" site_id="entertainment#21" lang="en" xmltv_id="ClubMTVEurope.uk@SD">Club MTV Europe</channel>
+  <channel site="bein.com" site_id="entertainment#22" lang="en" xmltv_id="BloombergTV.us@MiddleEast">Bloomberg TV Middle East</channel>
+  <channel site="bein.com" site_id="entertainment#23" lang="en" xmltv_id="NationalGeographicMiddleEast.uk@SD">National Geographic Middle East</channel>
+  <channel site="bein.com" site_id="entertainment#24" lang="en" xmltv_id="NationalGeographicWildMiddleEast.uk@SD">National Geographic Wild Middle East</channel>
+  <channel site="bein.com" site_id="entertainment#25" lang="en" xmltv_id="BBCEarth.uk@MiddleEast">BBC Earth Middle East</channel>
+  <channel site="bein.com" site_id="entertainment#26" lang="en" xmltv_id="CNNArabic.ae@SD">CNN Arabic</channel>
+  <channel site="bein.com" site_id="entertainment#27" lang="en" xmltv_id="EuronewsEnglish.fr@SD">Euronews English</channel>
+  <channel site="bein.com" site_id="entertainment#28" lang="en" xmltv_id="DiscoveryChannelMiddleEastAfrica.us@SD">Discovery Channel Middle East Africa</channel>
+  <channel site="bein.com" site_id="entertainment#29" lang="en" xmltv_id="BeJunior.qa@SD">beJunior</channel>
+  <channel site="bein.com" site_id="entertainment#30" lang="en" xmltv_id="JeemTV.qa@SD">Jeem TV</channel>
+  <channel site="bein.com" site_id="entertainment#31" lang="en" xmltv_id="Baraem.qa@SD">Baraem</channel>
+  <channel site="bein.com" site_id="entertainment#32" lang="en" xmltv_id="CartoonNetworkMENA.uk@SD">Cartoon Network MENA</channel>
+  <channel site="bein.com" site_id="entertainment#33" lang="en" xmltv_id="CartoonNetworkArabic.ae@SD">Cartoon Network Arabic</channel>
+
+  <!-- beIN Sports -->
+  <channel site="bein.com" site_id="sports#1" lang="en" xmltv_id="beINSportsNews.qa@SD">beIN Sports News</channel>
+  <channel site="bein.com" site_id="sports#2" lang="en" xmltv_id="beINSports.qa@MENA">beIN Sports</channel>
+  <channel site="bein.com" site_id="sports#3" lang="en" xmltv_id="beINSports1.qa@MENA">beIN Sports 1</channel>
+  <channel site="bein.com" site_id="sports#4" lang="en" xmltv_id="beINSports2.qa@MENA">beIN Sports 2</channel>
+  <channel site="bein.com" site_id="sports#5" lang="en" xmltv_id="beINSports3.qa@MENA">beIN Sports 3</channel>
+  <channel site="bein.com" site_id="sports#6" lang="en" xmltv_id="beINSports4.qa@MENA">beIN Sports 4</channel>
+  <channel site="bein.com" site_id="sports#7" lang="en" xmltv_id="beINSports5.qa@MENA">beIN Sports 5</channel>
+  <channel site="bein.com" site_id="sports#8" lang="en" xmltv_id="beINSports6.qa@MENA">beIN Sports 6</channel>
+  <channel site="bein.com" site_id="sports#9" lang="en" xmltv_id="beINSports7.qa@MENA">beIN Sports 7</channel>
+  <channel site="bein.com" site_id="sports#10" lang="en" xmltv_id="beINSportsPremium1.qa@SD">beIN Sports Premium 1</channel>
+  <channel site="bein.com" site_id="sports#11" lang="en" xmltv_id="beINSportsPremium2.qa@SD">beIN Sports Premium 2</channel>
+  <channel site="bein.com" site_id="sports#12" lang="en" xmltv_id="beINSportsPremium3.qa@SD">beIN Sports Premium 3</channel>
+  <channel site="bein.com" site_id="sports#13" lang="en" xmltv_id="beINSportsXtra1.qa@SD">beIN Sports Xtra 1</channel>
+  <channel site="bein.com" site_id="sports#14" lang="en" xmltv_id="beINSportsXtra2.qa@SD">beIN Sports Xtra 2</channel>
+  <channel site="bein.com" site_id="sports#15" lang="en" xmltv_id="beIN4K.qa@SD">beIN 4K</channel>
+  <channel site="bein.com" site_id="sports#16" lang="en" xmltv_id="beINSportsAFC.qa@SD">beIN Sports AFC</channel>
+  <channel site="bein.com" site_id="sports#17" lang="en" xmltv_id="beINSportsAFC1.qa@SD">beIN Sports AFC 1</channel>
+  <channel site="bein.com" site_id="sports#18" lang="en" xmltv_id="beINSportsAFC2.qa@SD">beIN Sports AFC 2</channel>
+  <channel site="bein.com" site_id="sports#19" lang="en" xmltv_id="beINSportsAFC3.qa@SD">beIN Sports AFC 3</channel>
+  <channel site="bein.com" site_id="sports#20" lang="en" xmltv_id="beINSportsEnglish1.qa@SD">beIN Sports English 1</channel>
+  <channel site="bein.com" site_id="sports#21" lang="en" xmltv_id="beINSportsEnglish2.qa@SD">beIN Sports English 2</channel>
+  <channel site="bein.com" site_id="sports#22" lang="en" xmltv_id="beINSportsEnglish3.qa@SD">beIN Sports English 3</channel>
+  <channel site="bein.com" site_id="sports#23" lang="en" xmltv_id="beINSportsNBA.qa@SD">beIN Sports NBA</channel>
+  <channel site="bein.com" site_id="sports#24" lang="en" xmltv_id="beINSportsFrench1.qa@SD">beIN Sports French 1</channel>
+  <channel site="bein.com" site_id="sports#25" lang="en" xmltv_id="beINSportsFrench2.qa@SD">beIN Sports French 2</channel>
+  <channel site="bein.com" site_id="sports#26" lang="en" xmltv_id="beINSportsFrench3.qa@SD">beIN Sports French 3</channel>
+  <channel site="bein.com" site_id="sports#27" lang="en" xmltv_id="beINSportsMax1.qa@MENA">beIN Sports Max 1</channel>
+  <channel site="bein.com" site_id="sports#28" lang="en" xmltv_id="beINSportsMax2.qa@MENA">beIN Sports Max 2</channel>
+  <channel site="bein.com" site_id="sports#29" lang="en" xmltv_id="beINSportsMax3.qa@MENA">beIN Sports Max 3</channel>
+  <channel site="bein.com" site_id="sports#30" lang="en" xmltv_id="beINSportsMax4.qa@MENA">beIN Sports Max 4</channel>
+  <channel site="bein.com" site_id="sports#31" lang="en" xmltv_id="beINSportsMax5.qa@MENA">beIN Sports Max 5</channel>
+  <channel site="bein.com" site_id="sports#32" lang="en" xmltv_id="beINSportsMax6.qa@MENA">beIN Sports Max 6</channel>
+  <channel site="bein.com" site_id="sports#33" lang="en" xmltv_id="AlkassOne.qa@SD">Alkass One</channel>
+  <channel site="bein.com" site_id="sports#34" lang="en" xmltv_id="AlkassTwo.qa@SD">Alkass Two</channel>
+
+  <!-- Shahid / MBC -->
+  <channel site="shahid.mbc.net" site_id="951783" lang="en" xmltv_id="">BIG TIME</channel>
+  <channel site="shahid.mbc.net" site_id="963543" lang="en" xmltv_id="">Tash Channel</channel>
+  <channel site="shahid.mbc.net" site_id="969745" lang="en" xmltv_id="">Nasser Al Qassabi</channel>
+  <channel site="shahid.mbc.net" site_id="976272" lang="en" xmltv_id="">El Kebeer Awi Channel</channel>
+  <channel site="shahid.mbc.net" site_id="977946" lang="en" xmltv_id="">Al Asouf Channel</channel>
+  <channel site="shahid.mbc.net" site_id="983124" lang="en" xmltv_id="">Masrah Masr Channel</channel>
+  <channel site="shahid.mbc.net" site_id="992538" lang="en" xmltv_id="">El Le&apos;ba Channel</channel>
+  <channel site="shahid.mbc.net" site_id="1005232" lang="en" xmltv_id="">Selfie Channel</channel>
+  <channel site="shahid.mbc.net" site_id="49922714770529" lang="en" xmltv_id="">Al Sahraa</channel>
+  <channel site="shahid.mbc.net" site_id="49923086870104" lang="en" xmltv_id="">Sikkat Safar Channel</channel>
+  <channel site="shahid.mbc.net" site_id="49923434082342" lang="en" xmltv_id="">Al Hisn Channel</channel>
+  <channel site="shahid.mbc.net" site_id="49923446898171" lang="en" xmltv_id="">FIFA+</channel>
+  <channel site="shahid.mbc.net" site_id="49923562606153" lang="en" xmltv_id="">Hikayat Dofaa</channel>
+  <channel site="shahid.mbc.net" site_id="986014" lang="en" xmltv_id="AbdulmajeedAbdullah.sa@SD">Abdul Majeed Abdullah</channel>
+  <channel site="shahid.mbc.net" site_id="989622" lang="en" xmltv_id="Aflam.sa@SD">Aflam</channel>
+  <channel site="shahid.mbc.net" site_id="387286" lang="en" xmltv_id="Alarabiya.ae@SD">Al Arabiya</channel>
+  <channel site="shahid.mbc.net" site_id="1003218" lang="en" xmltv_id="AlArabiyaBusiness.ae@SD">Al Arabiya Business</channel>
+  <channel site="shahid.mbc.net" site_id="49923569816895" lang="en" xmltv_id="AlArabiyaEnglish.sa@SD">Al Arabiya English</channel>
+  <channel site="shahid.mbc.net" site_id="946948" lang="en" xmltv_id="AlEkhbariya.sa@SD">Alikhbariya</channel>
+  <channel site="shahid.mbc.net" site_id="387288" lang="en" xmltv_id="AlHadath.sa@SD">Al Hadath</channel>
+  <channel site="shahid.mbc.net" site_id="1029746" lang="en" xmltv_id="AlkhuzamaRadio.sa@SD">Alkhuzama Radio</channel>
+  <channel site="shahid.mbc.net" site_id="946946" lang="en" xmltv_id="AlQuranAlKareemTV.sa@SD">Al Quraan al Kareem</channel>
+  <channel site="shahid.mbc.net" site_id="946938" lang="en" xmltv_id="AlSaudiya.sa@SD">AlSaudia</channel>
+  <channel site="shahid.mbc.net" site_id="999927" lang="en" xmltv_id="AlSaudiyaAlaan.sa@SD">KSA Now</channel>
+  <channel site="shahid.mbc.net" site_id="946942" lang="en" xmltv_id="AlSunnahAlNabawiyahTV.sa@SD">Al Sunnah al Nabawiyah</channel>
+  <channel site="shahid.mbc.net" site_id="49923561727230" lang="en" xmltv_id="Anime.sa@SD">Anime</channel>
+  <channel site="shahid.mbc.net" site_id="1001845" lang="en" xmltv_id="AsharqDiscovery.sa@SD">Asharq Discovery</channel>
+  <channel site="shahid.mbc.net" site_id="997605" lang="en" xmltv_id="AsharqDocumentary.sa@SD">Asharq Documentary</channel>
+  <channel site="shahid.mbc.net" site_id="862837" lang="en" xmltv_id="AsharqNews.sa@SD">Asharq</channel>
+  <channel site="shahid.mbc.net" site_id="975435" lang="en" xmltv_id="BabAlHara.sa@SD">Bab Al Hara Channel</channel>
+  <channel site="shahid.mbc.net" site_id="49922904934759" lang="en" xmltv_id="BigTimePlus.sa@SD">Big Time Plus</channel>
+  <channel site="shahid.mbc.net" site_id="49923172215352" lang="en" xmltv_id="Fairuz.sa@HD">Fairuz</channel>
+  <channel site="shahid.mbc.net" site_id="49922763891977" lang="en" xmltv_id="MajidAlMohandis.sa@SD">Majid Almohandis</channel>
+  <channel site="shahid.mbc.net" site_id="988045" lang="en" xmltv_id="Maraya.sa@HD">Maraya Channel</channel>
+  <channel site="shahid.mbc.net" site_id="387238" lang="en" xmltv_id="MBC1.ae@SD">MBC 1</channel>
+  <channel site="shahid.mbc.net" site_id="387248" lang="en" xmltv_id="MBC1Egypt.eg@HD">MBC 1 Egypt</channel>
+  <channel site="shahid.mbc.net" site_id="816764" lang="en" xmltv_id="MBC1USA.us@SD">MBC 1 USA</channel>
+  <channel site="shahid.mbc.net" site_id="400917" lang="en" xmltv_id="MBC2.ae@SD">MBC 2</channel>
+  <channel site="shahid.mbc.net" site_id="409385" lang="en" xmltv_id="MBC3.ae@SD">MBC 3</channel>
+  <channel site="shahid.mbc.net" site_id="816771" lang="en" xmltv_id="MBC3USA.us@SD">MBC 3 USA</channel>
+  <channel site="shahid.mbc.net" site_id="400919" lang="en" xmltv_id="MBC4.ae@SD">MBC 4</channel>
+  <channel site="shahid.mbc.net" site_id="387937" lang="en" xmltv_id="MBC5.ae@SD">MBC 5</channel>
+  <channel site="shahid.mbc.net" site_id="400921" lang="en" xmltv_id="MBCAction.ae@SD">MBC Action</channel>
+  <channel site="shahid.mbc.net" site_id="409387" lang="en" xmltv_id="MBCBollywood.ae@SD">MBC Bollywood</channel>
+  <channel site="shahid.mbc.net" site_id="387251" lang="en" xmltv_id="MBCDrama.ae@SD">MBC Drama</channel>
+  <channel site="shahid.mbc.net" site_id="816781" lang="en" xmltv_id="MBCDramaUSA.us@SD">MBC Drama USA</channel>
+  <channel site="shahid.mbc.net" site_id="388567" lang="en" xmltv_id="MBCFM.ae@SD">MBC FM</channel>
+  <channel site="shahid.mbc.net" site_id="387294" lang="en" xmltv_id="MBCIraq.iq@SD">MBC Iraq</channel>
+  <channel site="shahid.mbc.net" site_id="387293" lang="en" xmltv_id="MBCMasr2.eg@SD">MBC Masr 2</channel>
+  <channel site="shahid.mbc.net" site_id="387290" lang="en" xmltv_id="MBCMasr.eg@SD">MBC Masr</channel>
+  <channel site="shahid.mbc.net" site_id="49923122575716" lang="en" xmltv_id="MBCMasrDrama.sa@SD">MBC Masr Drama</channel>
+  <channel site="shahid.mbc.net" site_id="816776" lang="en" xmltv_id="MBCMasrUSA.us@SD">MBC Masr USA</channel>
+  <channel site="shahid.mbc.net" site_id="400924" lang="en" xmltv_id="MBCMax.ae@SD">MBC Max</channel>
+  <channel site="shahid.mbc.net" site_id="418308" lang="en" xmltv_id="MBCPersia.ae@SD">MBC Persia</channel>
+  <channel site="shahid.mbc.net" site_id="387296" lang="en" xmltv_id="MBCPlusDrama.sa@SD">MBC Plus Drama</channel>
+  <channel site="shahid.mbc.net" site_id="986346" lang="en" xmltv_id="MohammedAbdo.sa@SD">Mohammed Abdu</channel>
+  <channel site="shahid.mbc.net" site_id="986064" lang="en" xmltv_id="MoviesAction.sa@SD">Movies Action</channel>
+  <channel site="shahid.mbc.net" site_id="986069" lang="en" xmltv_id="MoviesThriller.sa@SD">Movies Thriller</channel>
+  <channel site="shahid.mbc.net" site_id="49923518527492" lang="en" xmltv_id="MTV.lb@SD">MTV Lebanon</channel>
+  <channel site="shahid.mbc.net" site_id="388566" lang="en" xmltv_id="PanoramaFM.sa@SD">Panorama FM</channel>
+  <channel site="shahid.mbc.net" site_id="49923172117967" lang="en" xmltv_id="RabehSaqer.sa@HD">Rabeh Saqer</channel>
+  <channel site="shahid.mbc.net" site_id="986024" lang="en" xmltv_id="RashidAlMajed.sa@SD">Rashed Al-Majed</channel>
+  <channel site="shahid.mbc.net" site_id="995495" lang="en" xmltv_id="SaudiThaqafiyaTV.sa@SD">AlThaqafeya</channel>
+  <channel site="shahid.mbc.net" site_id="946940" lang="en" xmltv_id="SBC.sa@SD">SBC</channel>
+  <channel site="shahid.mbc.net" site_id="409390" lang="en" xmltv_id="SpacetoonArabic.ae@SD">Spacetoon</channel>
+  <channel site="shahid.mbc.net" site_id="49923522151062" lang="en" xmltv_id="SpookyNights.sa@SD">Spooky Nights</channel>
+  <channel site="shahid.mbc.net" site_id="49922763510387" lang="en" xmltv_id="Tarab.sa@SD">Tarab</channel>
+  <channel site="shahid.mbc.net" site_id="946945" lang="en" xmltv_id="ThikrayatTV.sa@SD">Thikrayat</channel>
+  <channel site="shahid.mbc.net" site_id="414449" lang="en" xmltv_id="Wanasah.ae@SD">Wanasa</channel>
+</channels>
