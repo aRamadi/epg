@@ -295,7 +295,7 @@
   <channel site="elcinema.com" site_id="1398" lang="ar" xmltv_id="Althania.sy@SD">Althania</channel>
   <channel site="elcinema.com" site_id="1401" lang="ar" xmltv_id="Masah.sa@SD">Masah</channel>
 
-  <!-- Rotana -->
+   <!-- Rotana
   <channel site="rotana.net" site_id="431" lang="ar" xmltv_id="RotanaCinemaKSA.sa@SD">Rotana Cinema KSA</channel>
   <channel site="rotana.net" site_id="432" lang="ar" xmltv_id="">Rotana HD</channel>
   <channel site="rotana.net" site_id="433" lang="ar" xmltv_id="">Rotana Cinema France</channel>
@@ -312,6 +312,7 @@
   <channel site="rotana.net" site_id="444" lang="ar" xmltv_id="RotanaMusic.sa@SD">Rotana Music</channel>
   <channel site="rotana.net" site_id="445" lang="ar" xmltv_id="">M+ HD</channel>
   <channel site="rotana.net" site_id="446" lang="ar" xmltv_id="AlResalah.sa@SD">Al Resalah</channel>
+  -->
 
   <!--TV Guide-->
   <channel site="tvguide.com" site_id="9200000016" lang="en" xmltv_id="CookingChannel.us@SD">Cooking</channel>
