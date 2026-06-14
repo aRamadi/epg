@@ -13,17 +13,25 @@ jobs:
 
       - name: Test API reachability directly
         run: |
-          echo "=== Testing beIN Sports API from GitHub runner IP ==="
-          curl -v \
+          echo "=== Runner public IP ==="
+          curl -s https://api.ipify.org
+          echo ""
+
+          echo "=== beIN Sports API response ==="
+          curl -s -w "\nHTTP Status: %{http_code}\n" \
             -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" \
-            "https://www.beinsports.com/api/opta/tv-event?&startBefore=2026-06-15T00:00:00.000Z&endAfter=2026-06-14T00:00:00.000Z&channelIds=bs1" \
-            2>&1
+            "https://www.beinsports.com/api/opta/tv-event?&startBefore=2026-06-15T00:00:00.000Z&endAfter=2026-06-14T00:00:00.000Z&channelIds=bs1"
+          echo ""
+
+          echo "=== Response headers ==="
+          curl -s -I \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" \
+            "https://www.beinsports.com/api/opta/tv-event?&startBefore=2026-06-15T00:00:00.000Z&endAfter=2026-06-14T00:00:00.000Z&channelIds=bs1"
 
       - name: Grab beIN Sports only via Docker
         run: |
           mkdir -p docs
 
-          # Create a temp channels.xml with just a couple beIN channels
           cat > /tmp/test-channels.xml << 'EOF'
           <?xml version="1.0" encoding="UTF-8"?>
           <channels>
