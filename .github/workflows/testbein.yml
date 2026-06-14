@@ -1,0 +1,33 @@
+name: Test beIN Sports EPG
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Test API reachability
+        run: |
+          curl -v \
+            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" \
+            "https://www.beinsports.com/api/opta/tv-event?&startBefore=2026-06-15T00:00:00.000Z&endAfter=2026-06-14T00:00:00.000Z&channelIds=bs1"
+
+      - name: Grab beIN Sports EPG (1 day only)
+        run: npm run grab -- --sites=beinsports.com --output=guide.xml --days=1
+
+      - name: Show output
+        run: |
+          echo "=== guide.xml preview ==="
