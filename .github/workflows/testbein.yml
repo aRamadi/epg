@@ -8,26 +8,38 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Test API reachability
+      - name: Test API reachability directly
         run: |
+          echo "=== Testing beIN Sports API from GitHub runner IP ==="
           curl -v \
             -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" \
-            "https://www.beinsports.com/api/opta/tv-event?&startBefore=2026-06-15T00:00:00.000Z&endAfter=2026-06-14T00:00:00.000Z&channelIds=bs1"
+            "https://www.beinsports.com/api/opta/tv-event?&startBefore=2026-06-15T00:00:00.000Z&endAfter=2026-06-14T00:00:00.000Z&channelIds=bs1" \
+            2>&1
 
-      - name: Grab beIN Sports EPG (1 day only)
-        run: npm run grab -- --sites=beinsports.com --output=guide.xml --days=1
+      - name: Grab beIN Sports only via Docker
+        run: |
+          mkdir -p docs
+
+          # Create a temp channels.xml with just a couple beIN channels
+          cat > /tmp/test-channels.xml << 'EOF'
+          <?xml version="1.0" encoding="UTF-8"?>
+          <channels>
+            <channel site="beinsports.com" lang="en" xmltv_id="BeINSports1.us" site_id="bs1">beIN Sports 1</channel>
+            <channel site="beinsports.com" lang="en" xmltv_id="BeINSports2.us" site_id="bs2">beIN Sports 2</channel>
+          </channels>
+          EOF
+
+          docker run --rm \
+            -v "/tmp/test-channels.xml:/epg/channels.xml:ro" \
+            -v "${{ github.workspace }}/docs:/epg/docs" \
+            --entrypoint sh \
+            ghcr.io/iptv-org/epg:master \
+            -lc 'npm run grab -- --channels=/epg/channels.xml --output=/epg/docs/guide.xml'
 
       - name: Show output
         run: |
           echo "=== guide.xml preview ==="
+          cat docs/guide.xml || echo "guide.xml not found or empty"
