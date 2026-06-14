@@ -11,37 +11,11 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Test API reachability directly
-        run: |
-          echo "=== Runner public IP ==="
-          curl -s https://api.ipify.org
-          echo ""
-
-          echo "=== beIN Sports API response ==="
-          curl -s -w "\nHTTP Status: %{http_code}\n" \
-            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" \
-            "https://www.beinsports.com/api/opta/tv-event?&startBefore=2026-06-15T00:00:00.000Z&endAfter=2026-06-14T00:00:00.000Z&channelIds=bs1"
-          echo ""
-
-          echo "=== Response headers ==="
-          curl -s -I \
-            -H "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" \
-            "https://www.beinsports.com/api/opta/tv-event?&startBefore=2026-06-15T00:00:00.000Z&endAfter=2026-06-14T00:00:00.000Z&channelIds=bs1"
-
-      - name: Grab beIN Sports only via Docker
+      - name: Grab beIN Sports via Docker
         run: |
           mkdir -p docs
-
-          cat > /tmp/test-channels.xml << 'EOF'
-          <?xml version="1.0" encoding="UTF-8"?>
-          <channels>
-            <channel site="beinsports.com" lang="en" xmltv_id="BeINSports1.us" site_id="bs1">beIN Sports 1</channel>
-            <channel site="beinsports.com" lang="en" xmltv_id="BeINSports2.us" site_id="bs2">beIN Sports 2</channel>
-          </channels>
-          EOF
-
           docker run --rm \
-            -v "/tmp/test-channels.xml:/epg/channels.xml:ro" \
+            -v "${{ github.workspace }}/channels.xml:/epg/channels.xml:ro" \
             -v "${{ github.workspace }}/docs:/epg/docs" \
             --entrypoint sh \
             ghcr.io/iptv-org/epg:master \
@@ -50,4 +24,4 @@ jobs:
       - name: Show output
         run: |
           echo "=== guide.xml preview ==="
-          cat docs/guide.xml || echo "guide.xml not found or empty"
+          head -50 docs/guide.xml || echo "guide.xml not found or empty"
